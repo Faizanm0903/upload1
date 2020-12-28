@@ -1,0 +1,110 @@
+html{
+  margin: 10px;
+}
+body {
+  background-color: #ffffe6;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background-color: #00001a;
+  color: #ecd9c6;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  margin: 0px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  padding: 6px;
+  margin: 0px;
+  border: 3px #DCDCDC;
+  background-color: #000033;
+}
+nav a:link, a:visited {
+  color: #ecd9c6;
+  text-decoration: none;
+}
+li.active {
+  background-color: none;
+  padding: 4px;
+  border: 2px solid white;
+}
+li {
+  float: center;
+}
+li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  padding: 7px 7px;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+#img1 {
+  position: relative;
+  width: 100%;
+}
+#img2 {
+  float: left;
+  clear: left;
+  margin: 30px;
+  width: 20%;
+  height: 30%;
+}
+#img3 {
+  float: right;
+  clear: right;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  border: 2px solid black;
+  height: auto;
+}
+main {
+  padding: 0px;
+  margin: 0px;
+}
+#h2{
+  color: #e67300
+;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+}
+#firstPara{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding-left: 300px;
+  font-size: 16px;
+  color: black;
+  line-height: 2.5;
+  font-family: sans-serif;
+  }
+#secondPara{
+  margin: 20px;
+  font-size: 16px;
+  color: black;
+  line-height: 2.5;
+  font-family: sans-serif;
+  text-align: left;
+}
+footer {
+  background-color: #f9f2ec;
+  color: #27190c;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+  margin-top: 50px;
+  font-family: sans-serif;
+  margin-top: 350px;
+}
